@@ -3,10 +3,10 @@ import React from "react";
 const Explore = () => {
   return (
     <section className="bg-black py-36 text-white">
-      <div className="container mx-auto max-w-[1250px] flow-content--m grid md:grid-cols-2 md:bg-explore bg-no-repeat bg-cover">
+      <div className="container mx-auto max-w-[1250px] grid lg:grid-cols-2 lg:bg-explore bg-no-repeat bg-cover bg-center w-full md:w-[85%]">
         <form
           action=""
-          className="flow-content--m text-center p-16 bg-explore bg-no-repeat bg-cover md:bg-none"
+          className="flow-content--m  p-16 bg-explore bg-no-repeat bg-cover  md:bg-center lg:bg-none"
         >
           <header className="flow-content--m">
             <h2
@@ -18,7 +18,7 @@ const Explore = () => {
               Explore product in new way
             </h2>
             <p
-              className="text-center md:text-left"
+              className=""
               data-aos="fade-right"
               data-aos-delay="500"
               data-aos-duration="500"
@@ -43,6 +43,7 @@ const Explore = () => {
             </button>
           </div>
         </form>
+        <div className="bg-explore bg-no-repeat bg-cover md:bg-none"></div>
       </div>
     </section>
   );
